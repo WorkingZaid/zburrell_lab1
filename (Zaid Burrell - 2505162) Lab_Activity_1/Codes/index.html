@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>University of Technology</h1>
+    </div>
+    <div id="Navigation">
+      <nav class="theNavigation">
+        <h2><a href="#about_me">Home</a></h2>
+        <h2><a href="#my_courses">About</a></h2>
+        <h2><a href="#w_schedule">Courses</a></h2>
+        <h2><a href="#contact_info">Contact</a></h2>
+      </nav>
+    </div>
+    <div id="about_me">
+      <h2 id="name">Zaid Burrell</h2>
+      <h2 id="compSci">Computer Science<span id="secondYear"> (Second year)</span></h2>
+      <p>Zaid Burrell is an outgoing, tenacious young man that attended St Jago High school before moving on to UTECH. His sometime near-death life expereinces are what got him to the point that he is at now in his life. From an infant, he has been faced with several challenges. But through God, faith, consistiency and hard work he has managed to push past all adversities and make his way to the place he is at now.</p>
+      <img src="../images/website_img.jpeg" alt="picture of zaid" id="myImg">
+    </div>
+    <div id="my_courses">
+      <h2>My Courses</h2>
+      <ul>
+        <li>Web Programming</li>
+        <li>Statistics</li>
+        <li>Physics for Computer Studies</li>
+        <li>Object Oriented Programming</li>
+      </ul>
+    </div>
+    <div id="w_schedule">
+      <h2>Weekly Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Courses</th>
+            <th class="time">Times</th>
+          </tr>
+        </thead>          
+        <tbody>
+          <tr>
+            <td>Statistics</td>
+            <td class="time"><span class="day">MON</span> 1PM - 1:50PM, <span class="day">FRI</span> 3PM - 4:50PM</tr>
+          </tr>
+          <tr>
+            <td>Web Programming</td>
+            <td class="time"><span class="day">THUR</span> 11:00PM - 11:50PM, <span class="day">FRI</span> 10:00 - 10:50PM</tr> 
+          </tr>
+          <tr>
+            <td>Physics for Computer Science</td>
+            <td class="time"><span class="day">MON</span> 8:00AM - 10:50AM, <span class="day">MON</span> 3:00PM - 4:00PM, <span class="day">THUR</span> 8:00PM - 9:50PM</td>
+          </tr>
+        </tbody>  
+      </table>
+    </div>
+    <div id="contact_info">
+      <h3>Contact Me</h3>
+      <form method="get" id="formSpace">
+        <label for="name">Name:</label>
+        <input type="text" id="nameInput" name="Name" >
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email">
+        <label for="message">Message:</label>
+        <textarea name="Message" id="message"></textarea>
+        <button id="submit">Submit</button>                       
+      </form>
+    </div>
+    <div class="footer">
+      <p>© Copyright 2026 Zaid Burrell, All rights reserverd</p>
+    </div>
+  </body>
+</html>

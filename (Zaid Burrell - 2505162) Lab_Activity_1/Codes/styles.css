@@ -1,0 +1,65 @@
+@font-face{
+    font-family: cinzel;
+    src: url("../fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf"), format(truetype);
+}
+@font-face{
+    font-family: gilda;
+    src: url("../fonts/Gilda_Display/GildaDisplay-Regular.ttf") format(truetype);
+}
+*{
+    font-family: gilda, system-ui;
+}
+
+.theNavigation{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#programmeName{
+    margin: 0;
+    font-size: 16px;
+}
+#compSci{
+    margin-top: 0;
+}
+#header,  .time{
+    text-align: center;
+}
+h1{
+    font-family: cinzel;
+    font-size: 30px;
+    margin-bottom: 4px;    
+}
+#name{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+#secondYear{
+    font-style: italic;
+    font-size: 0.8em;
+}
+#myImg{
+    width: 250px;
+    height: 300px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: black ;
+}
+table, td, th{
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 6px;
+}
+.day{
+    font-weight: bold;
+}
+.time {
+    padding-left: 30px;
+}
+#formSpace{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
